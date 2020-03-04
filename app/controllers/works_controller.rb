@@ -1,7 +1,7 @@
 class WorksController < ApplicationController
 
     def index
-        works = Work.All 
+        works = Work.all 
         render json: works
     end
     
