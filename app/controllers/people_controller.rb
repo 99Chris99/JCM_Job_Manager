@@ -19,7 +19,11 @@ end
 
 
   
-    
+private 
+
+def people_params
+    params.require(:job.permit(:name))
+end
 
 
     
