@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ext_id: 
+  name: 
+  status: 
+  start_date: 
+  finish_date: 
+  notes: MyString
+
+two:
+  ext_id: 
+  name: 
+  status: 
+  start_date: 
+  finish_date: 
+  notes: MyString
