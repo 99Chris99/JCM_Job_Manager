@@ -6,7 +6,7 @@ def index
 end    
 
 def show
-    person = Person.find_by(name: params[:name])
+    person = Person.find_by(id: params[:id])
     render json: person
 end    
 
@@ -16,13 +16,11 @@ def create
         render json: person
     end
 end
-
-
   
 private 
 
 def people_params
-    params.require(:job.permit(:name))
+    params.require(:job.permit(:name, :id))
 end
 
 
